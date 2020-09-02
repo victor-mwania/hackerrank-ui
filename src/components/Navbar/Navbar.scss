@@ -1,0 +1,30 @@
+@import "../../global styles/variables";
+
+
+.navbar{    
+    display: flex;
+    align-items: center;
+    background: #39424f;
+    flex-direction: column;
+    padding-top: 2rem;
+    ul>li{
+        display: inline-block;
+        padding: 0 1.5rem;
+        padding-bottom: 2rem;
+        font-size: 1.5rem;
+        a{
+            color: #b8c7c0;
+            font-weight: 600;
+        }
+        a:hover {
+            color: #ffffff;
+        }
+    }
+
+    img{
+        height: 20px;
+    }
+    &__username{
+        color: #b8c7c0;
+    }
+}
