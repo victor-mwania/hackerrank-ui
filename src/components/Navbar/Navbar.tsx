@@ -16,19 +16,19 @@ function Navbar () {
                     <img src={logo} alt=""/>
                 </li>
                 <li>
-                    <a href="#">PRACTICE</a>
+                    <a href="/dashboard">PRACTICE</a>
                 </li>
                 <li>
-                    <a href="#">CERTIFICATION</a>
+                    <a href="/dashboard">CERTIFICATION</a>
                 </li>
                 <li>
-                    <a href="#">COMPETE</a>
+                    <a href="/dashboard">COMPETE</a>
                 </li>
                 <li>
-                    <a href="#">JOBS</a>
+                    <a href="/dashboard">JOBS</a>
                 </li>
                 <li>
-                    <a href="#">LEADERBOARD</a>
+                    <a href="/dashboard">LEADERBOARD</a>
                 </li>
                 <li>
                     <input type="search" name="" id=""/>
