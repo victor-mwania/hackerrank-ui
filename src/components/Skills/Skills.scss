@@ -1,0 +1,51 @@
+@import "../../global styles/variables";
+
+.skills {
+    margin: 0 8rem;
+    &_header{
+        padding: 2rem 0rem;
+    }
+
+    .skills_list{
+
+        .skill_card{
+            box-shadow: 0 6px 16px 0 rgba(0,0,0,.2);
+            padding: 30px;
+            box-sizing: border-box;
+            padding-top: 3rem;
+            padding-right: 0;
+            background: $color_white;
+            width: 360px;
+            height: 183px;
+            display: flex;
+            flex-direction: row;
+            overflow: hidden;
+            position: relative;
+            h3{
+                font-size: 26px;
+                color: $title-color;
+            }
+            .card_button {
+                button{
+                    border: 1px solid #1ba94c;
+                    background-color: $color_white;
+                    border-radius: 2px;
+                    color: #1ba94c;
+                    padding:5px;
+                    letter-spacing: 1px;
+                    line-height: 19px;
+                    margin: 20px 0px 0px;
+                    font-size: 12px;
+                    font-weight: 700;
+                }
+            }
+            .icon{
+                position: absolute;
+                opacity: .1;
+                right: -10%;
+                bottom: 0;
+                height: 85%;
+            }
+        }
+    }
+}
