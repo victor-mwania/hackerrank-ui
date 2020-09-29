@@ -1,15 +1,6 @@
-@import "../../global styles/variables";
-
-.skills {
-    margin: 0 8rem;
-    &_header{
-        padding: 2rem 0rem;
-    }
-
-    .skills_list{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 50px;
-    }
+.skills_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
 }

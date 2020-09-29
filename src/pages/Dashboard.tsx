@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar/Navbar';
-import Skills from '../components/Skills/Skills';
 import SubNavbar from '../components/SubNavbar/SubNavbar';
+import Boards from '../components/Boards/Boards';
 
 
 function Dashboard () {
@@ -9,7 +9,7 @@ function Dashboard () {
         <div>
             <Navbar/>
             <SubNavbar/>
-            <Skills/>
+            <Boards/>
         </div>
     )
 }
