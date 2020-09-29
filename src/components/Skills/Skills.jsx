@@ -1,6 +1,7 @@
 import React from 'react';
 import './Skills.scss';
-import SkillCard from '../Cards/SkillCard';
+import SkillCard from '../Cards/SkillCard/SkillCard';
+import StandOutCard from '../Cards/StandOutCard/StandOutCard';
 
 function Skills () {
     return(
@@ -11,12 +12,10 @@ function Skills () {
                     <div className="skills_list">
                     <SkillCard title1={"Problem Solving"} title2={"(Basic)" }/>
                     <SkillCard title1={"Problem Solving"} title2={"(Basic)" }/>
-
                     <SkillCard title1={"Problem Solving"} title2={"(Basic)" }/>
-
                     <SkillCard title1={"Problem Solving"} title2={"(Basic)" }/>
-
                     <SkillCard title1={"Problem Solving"} title2={"(Basic)" }/>
+                    <StandOutCard/>
                     </div>
                     
 

@@ -1,13 +1,14 @@
 import React from 'react';
-import {ReactComponent as ProblemSolvingIcon} from '../../assets/icons/ProblemSolving.svg';
-import './SkillCard.scss'
+import {ReactComponent as ProblemSolvingIcon} from '../../../assets/icons/ProblemSolving.svg';
+import './../mid-cards.scss'
+import './SkillCard.scss';
 
 function SkillCard(props) {
 
     const {title1, title2} = props
         return(
         <React.Fragment>
-            <div className="skill_card">
+            <div className="min_card skill_card">
                 <div className="skill_card_info">
                     <div className="title">
                         <h3>{title1}</h3>
