@@ -1,5 +1,6 @@
 import React from 'react';
 import {ReactComponent as ProblemSolvingIcon} from '../../assets/icons/ProblemSolving.svg';
+import './SkillCard.scss'
 
 function SkillCard(props) {
 
