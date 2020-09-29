@@ -1,0 +1,24 @@
+@import '../../../global styles/variables';
+
+.stand_out_card{
+    background-color: black;
+    color: $color-white;
+    p {
+        font-size: 13px;
+    }
+
+    .card_button {
+        button {
+            border: 1px solid #1ba94c;
+            background-color: $color_white;
+            border-radius: 5px;
+            color: black;
+            padding:10px 30px;
+            letter-spacing: 2px;
+            line-height: 19px;
+            margin: 20px 0px 0px;
+            font-size: 14px;
+            font-weight: 700;
+        }
+    }
+}
