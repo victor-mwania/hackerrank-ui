@@ -1,0 +1,25 @@
+@import "../../global styles/variables";
+
+.skills {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    .skill{
+        display: flex;
+        align-items: center;
+        vertical-align: baseline;
+        padding: 10px 30px;
+        box-shadow: none;
+        border-bottom: 1px solid #f3f7f7;
+        border-right: 0.5px solid #f3f7f7;
+        border-left: 0.5px solid #f3f7f7;
+
+        .skill_title{
+            padding-left: 10px;
+        }
+    }
+    .skill:hover{
+        box-shadow: 0 6px 16px 0 rgba(0,0,0,.2);
+        transition: box-shadow .2s ease-in-out;
+    }
+}
