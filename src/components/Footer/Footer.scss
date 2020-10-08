@@ -1,0 +1,26 @@
+footer{
+    margin-top: 80px;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    .link_items {
+        .link_item {
+            display: inline-block;
+            vertical-align: middle;
+            a{
+                color: #097bbf;
+            }
+        }
+        .link_item:after{
+            display: inline-block;
+            color: #b7c9cc;
+            margin: 0 5px;
+            content: "|";
+        }
+        .link_item:last-child::after{
+
+            display: none;
+        }
+    }
+}

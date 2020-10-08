@@ -1,11 +1,10 @@
 import React from 'react';
-import {ReactComponent as ProblemSolvingIcon} from '../../../assets/icons/ProblemSolving.svg';
 import './../mid-cards.scss'
 import './SkillCard.scss';
 
 function SkillCard(props) {
 
-    const {title1, title2} = props
+    const {title1, title2, iconSrc} = props
         return(
         <React.Fragment>
             <div className="min_card skill_card">
@@ -19,7 +18,7 @@ function SkillCard(props) {
                     </div>
                 </div>
                 <div className="icon">
-                    <ProblemSolvingIcon height="150px" width="150px" />
+                    <img src={iconSrc} height="150px" width="150px" alt="icon"/>
                 </div>
             </div>
         </React.Fragment>
