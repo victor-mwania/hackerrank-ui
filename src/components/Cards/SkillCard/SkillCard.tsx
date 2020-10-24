@@ -2,7 +2,7 @@ import React from 'react';
 import './../mid-cards.scss'
 import './SkillCard.scss';
 
-function SkillCard(props) {
+function SkillCard(props:any) {
 
     const {title1, title2, iconSrc} = props
         return(

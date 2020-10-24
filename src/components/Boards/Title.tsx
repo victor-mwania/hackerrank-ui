@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Title (props) {
+function Title (props:any) {
     
     const { title } = props
     return (
